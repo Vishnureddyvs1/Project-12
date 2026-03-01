@@ -1,0 +1,31 @@
+ΓÜá Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\vamsh\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\vamsh\Desktop\didgital learning and book sales platform\package-lock.json
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+- Environments: .env
+- Experiments (use with caution):
+  ┬╖ optimizePackageImports
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 4.5s
+  Running TypeScript ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/38) ...
+Γ¿» useSearchParams() should be wrapped in a suspense boundary at page "/auth/login". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at Q (C:\Users\vamsh\Desktop\didgital learning and book sales platform\.next\server\chunks\ssr\03a1e_next_83ed2042._.js:2:2111)
+    at o (C:\Users\vamsh\Desktop\didgital learning and book sales platform\.next\server\chunks\ssr\03a1e_next_83ed2042._.js:4:5283)
+    at n (C:\Users\vamsh\Desktop\didgital learning and book sales platform\.next\server\chunks\ssr\Desktop_didgital learning and book sales platform_app_auth_login_page_8d6c9211.js:1:259)
+    at an (C:\Users\vamsh\Desktop\didgital learning and book sales platform\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:84360)
+    at ai (C:\Users\vamsh\Desktop\didgital learning and book sales platform\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:86179)
+    at al (C:\Users\vamsh\Desktop\didgital learning and book sales platform\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:107953)
+    at as (C:\Users\vamsh\Desktop\didgital learning and book sales platform\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:105368)
+    at aa (C:\Users\vamsh\Desktop\didgital learning and book sales platform\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:84712)
+    at ai (C:\Users\vamsh\Desktop\didgital learning and book sales platform\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:86228)
+    at ai (C:\Users\vamsh\Desktop\didgital learning and book sales platform\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:104708)
+Error occurred prerendering page "/auth/login". Read more: https://nextjs.org/docs/messages/prerender-error
+Export encountered an error on /auth/login/page: /auth/login, exiting the build.
+Γ¿» Next.js build worker exited with code: 1 and signal: null
